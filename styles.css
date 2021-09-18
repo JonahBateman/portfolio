@@ -1,0 +1,43 @@
+@font-face { font-family: autoradiographic; src: url('autoradiographic rg.ttf'); }
+
+body {
+  color: #414141;
+  background-color: #EEEEEE;
+  font-family: 'autoradiographic';
+}
+
+h1, h3 {
+  color: black;
+}
+
+.contact * {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu li {
+  float: left;
+}
+
+#menu a {
+  display: block;
+  padding: 8px;
+  background-color: #2D3032;
+  text-decoration: none;
+  color: white;
+}
+
+#menu li :hover {
+  background-color: #cccccc;
+  color: #2D3032;
+}
+
+a {
+  text-decoration: none;
+}
